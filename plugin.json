@@ -21,7 +21,6 @@
     "browser-mobile",
     "desktop-window"
   ],
-  "disabledInPublish": false,
   "displayName": {
     "default": "Plugin sample with vite and svelte",
     "zh_CN": "插件样例 vite + svelte 版"
