@@ -103,21 +103,36 @@ make-link 命令会创建符号链接将你的 `dev` 目录绑定到思源的插
   "name": "plugin-sample-vite-svelte",
   "author": "frostime",
   "url": "https://github.com/siyuan-note/plugin-sample-vite-svelte",
-  "version": "0.1.3",
-  "minAppVersion": "2.8.8",
-  "backends": ["windows", "linux", "darwin"],
-  "frontends": ["desktop"],
+  "version": "0.4.1",
+  "minAppVersion": "3.2.1",
+  "disabledInPublish": true,
+  "backends": [
+    "windows",
+    "linux",
+    "darwin",
+    "ios",
+    "android",
+    "harmony",
+    "docker"
+  ],
+  "frontends": [
+    "desktop",
+    "mobile",
+    "browser-desktop",
+    "browser-mobile",
+    "desktop-window"
+  ],
   "displayName": {
-    "en_US": "Plugin sample with vite and svelte",
+    "default": "Plugin sample with vite and svelte",
     "zh_CN": "插件样例 vite + svelte 版"
   },
   "description": {
-    "en_US": "SiYuan plugin sample with vite and svelte",
+    "default": "SiYuan plugin sample with vite and svelte",
     "zh_CN": "使用 vite 和 svelte 开发的思源插件样例"
   },
   "readme": {
-    "en_US": "README_en_US.md",
-    "zh_CN": "README.md"
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
   },
   "funding": {
     "openCollective": "",
@@ -128,7 +143,8 @@ make-link 命令会创建符号链接将你的 `dev` 目录绑定到思源的插
     ]
   },
   "keywords": [
-    "sample", "示例"
+    "sample",
+    "示例"
   ]
 }
 ```
